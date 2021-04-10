@@ -199,8 +199,45 @@ div .inf-pre{
     cursor: pointer;
 }
 
+.container .widget-1:hover{
+    position: relative;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transition: 0.5s;
+    transform: scale(1.15);
+ } 
 
+ .container .widget-2:hover{
+    position: relative;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transition: 0.5s;
+    transform: scale(1.15);
+ } 
+ 
+ .container .widget-3:hover{
+    position: relative;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transition: 0.5s;
+    transform: scale(1.15);
+ } 
 
+ .container .widget-4:hover{
+    position: relative;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transition: 0.5s;
+    transform: scale(1.15);
+ } 
+
+ .container .widget-5:hover{
+    position: relative;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+    transition: 0.5s;
+    transform: scale(1.1);
+ } 
 
 /*
 //--------------------------------------------------------------------------------------
@@ -222,32 +259,56 @@ div .inf-pre{
 }
 
 .container .widget-1{
-    /* background: crimson;        Cambio de bg */
     background: url(./img/1.jpg);
     background-size: cover;
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
     opacity: 0.758;
     grid-area: widget-1;
+    transform: scale(0.95);
     /* grid-column: 1 / 3; */
 }
 
 .container .widget-2{
+    background: url(./img/2.jpg);
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    opacity: 0.758;
     grid-area: widget-2;
+    transform: scale(0.95);
     /* grid-column: 1 / 3; */
 }
 
 .container .widget-3{
+    background: url(./img/3.jpg);
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    opacity: 0.758;
     grid-area: widget-3;
+    transform: scale(0.95);
     /* grid-column: 1 / 3; */
 }
 
 .container .widget-4{
+    background: url(./img/4.jpg);
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    opacity: 0.758;
     grid-area: widget-4;
+    transform: scale(0.95);
     /* grid-column: 1 / 3; */
 }
 
 .container .widget-5{
+    background: url(./img/5.jpg);
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    opacity: 0.758;
+    transform: scale(0.95);
     grid-area: widget-5
     /* grid-column: 1 / 3; */
 }
