@@ -74,14 +74,8 @@ body{
 
 .container .head{
     text-align: center;
-    background: url(./img/head.jpg);
+    background: linear-gradient(180deg, rgba(0, 19, 144, 0.412) 14%, rgba(0, 19, 144, 0.212) 57%, rgba(202, 204, 247, 0.212) 97%), url(./img/head.png);
     background-size:cover;
-
-    /* background: rgb(0, 0, 0);
-    background: linear-gradient(to right, #0f9b0f5a, #000000b7), url(../img/head.jpg);
-    background: -webkit-linear-gradient(to right, #0f9b0f5a, #000000b7), url(../img/head.jpg); 
-    background-size:auto;
-    background-attachment: fixed; */
     color: #000000;
     grid-area: header;
     /* grid-column-start: 1;
@@ -253,6 +247,7 @@ li, li a{
     text-decoration: none;
     top: -10%;
 }
+
 
 
 li a:hover{
