@@ -79,7 +79,7 @@ body{
 
 .br{
     display:block;
-    margin-top: 20px;
+    margin-top: 5px;
     font-family: 'Train One', cursive;
     font-size: 35px;
 }
@@ -90,7 +90,7 @@ body{
 }
 
 header a{
-    color: #d1ce1a;
+    color: #d3d018;
     text-decoration: none;
 }
 
@@ -139,7 +139,6 @@ div .inf-pre{
     filter: blur(4px);
     -webkit-filter: blur(4px);
     opacity: 0.758;
-
 }
 
 .inf-mid .inf-mid-des{
@@ -196,10 +195,10 @@ div .inf-pre{
     color: #000000;
 }
 
-
 .w-hov:hover{
     cursor: pointer;
 }
+
 
 
 
@@ -223,6 +222,12 @@ div .inf-pre{
 }
 
 .container .widget-1{
+    /* background: crimson;        Cambio de bg */
+    background: url(./img/1.jpg);
+    background-size: cover;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    opacity: 0.758;
     grid-area: widget-1;
     /* grid-column: 1 / 3; */
 }
