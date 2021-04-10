@@ -59,8 +59,7 @@ body{
 
 .container > a,
 .container .head,
-.container .inf,
-.container .sidebar{
+.container .inf{
     background: #fffffF;
     padding: 20px;
     border-radius: 12px;
@@ -186,6 +185,47 @@ div .inf-pre{
 
 /*
 //--------------------------------------------------------------------------------------
+//-                                      Sidebar                                       -
+//--------------------------------------------------------------------------------------
+*/
+
+.sidebar{
+    position: relative;
+}
+
+.sidebar .sidebar-img-fon .sidebar-img-in{
+    opacity: 0.75;
+    width: 100%;
+}
+
+.sidebar .sidebar-img-front .img-front{
+    position: absolute;
+    width: 36%;
+    top: 1.2%;
+    left: 34%;
+    /* opacity: 1; */
+}
+
+
+
+/* .sidebar .sidebar-img-front img{
+    position: absolute;
+    width: 110px;
+    top: 210px;
+    right: 275px;
+}
+
+.sidebar .sidebar-img-front p{
+    position: absolute;
+    font-size: 30px;
+    width: 300px;
+    top: 53%;
+    right: 9.5%; 
+} */
+
+
+/*
+//--------------------------------------------------------------------------------------
 //-                                      Trabajos                                      -
 //--------------------------------------------------------------------------------------
 */
@@ -252,8 +292,7 @@ div .inf-pre{
 
 .container .sidebar{
     grid-column: 3 / -1;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(209,120,4,1) 11%, rgba(209,120,4,1) 97%);
+    background: #fffffF;
     grid-area: sidebar;
     /* grid-row: 2 /6; */
 }
