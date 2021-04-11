@@ -483,6 +483,18 @@ footer{
         width: 100%;
         margin: 0;
     }
+
+    .contenedor-footer{
+        display: block;
+    }
+
+    .content-foot p{
+        margin-bottom: 20px;
+    }
+
+    .titulo-final{
+        font-size: 16px;
+    }
 }
 
 /*
