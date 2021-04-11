@@ -134,10 +134,18 @@ div .inf-pre{
     margin: 20px;
 }
 
-.inf-mid .inf-mid-des, .inf-mid .inf-mid-end{
+.inf-mid .inf-mid-des{
     width: auto;
     padding: 15px 30px;
     text-align: justify;
+    top: 5%;
+}
+
+.inf-mid-end p{
+    width: auto;
+    padding: 15px 15px;
+    text-align: justify;
+    font-size: auto;
     top: 5%;
 }
 
