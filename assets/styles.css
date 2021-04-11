@@ -134,7 +134,7 @@ div .inf-pre{
     margin: 20px;
 }
 
-.inf-mid .inf-mid-des{
+.inf-mid .inf-mid-des, .inf-mid .inf-mid-end{
     width: auto;
     padding: 15px 30px;
     text-align: justify;
